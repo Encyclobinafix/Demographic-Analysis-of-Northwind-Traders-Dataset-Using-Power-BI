@@ -1,4 +1,4 @@
-# Demographic-Analysis-of-Northwind-Traders-Dataset-Using-Power-BI
+<img width="912" alt="image" src="https://github.com/Encyclobinafix/Demographic-Analysis-of-Northwind-Traders-Dataset-Using-Power-BI/assets/131128307/70270c19-a4ad-4567-b2e8-c884a2a7980a"># Demographic-Analysis-of-Northwind-Traders-Dataset-Using-Power-BI
  This project involves the examination and analysis of a dataset to demonstrate proficiency in Power BI and extract insights regarding the demographic, housing, and loan patterns of traders.
 
 ![](P_BI.jpg)
@@ -35,9 +35,37 @@ The following Power BI features were captured in this projects:
 
  ## Dynamic Data Analysis Expressions (DAX Measures):
 
-  1. Average Age
+ 1. Average Age
 
                   Average Age = AVERAGE('bank-full'[age])
+
+ ![](Ave_age.png)
+
+ 2. Total Balance for Technicians
+
+                  Total Balance for Technicians = CALCULATE(SUM('bank-full'[balance]), FILTER('bank-full', 'bank-full'[job] = "Technician"))
+
+ ![](Bal_Tech.png)
+ 
+ 3. Total Balance for Married
+
+                  Total Balance for Married = CALCULATE(SUM('bank-full'[balance]), FILTER('bank-full', 'bank-full'[marital] = "Married"))
+
+![](Bal_Married.png)
+
+ 3. Total Balance for Single
+
+                  Total Balance for Married = CALCULATE(SUM('bank-full'[balance]), FILTER('bank-full', 'bank-full'[marital] = "Married"))
+
+![](Bal_Singles.png)
+
+ 4. 
+
+
+
+
+
+
 
      ![](Ave_age.png)
   3. 
