@@ -21,13 +21,25 @@ The following Power BI features were captured in this projects:
 - Modelling
 - IF, AVERAGE, SUM, FILTER, VALUES, COUNTA, CALCULATE Functions
 
-  ## Problem Statement
-     TASK 1                          |       TASK 2
-    :-------------------------:|:---------------------------:
-    ![](Task_1.png)                 |    ![](Task_3.png)
+## Problem Statement:
 
-    
+   TASK 1                          |       TASK 2
+   :-------------------------:|:---------------------------:
+   ![](Task_1.png)                 |    ![](Project_Task.png)
 
-  
+
+   TASK 3                          |       TASK 4
+   :-------------------------:|:---------------------------:
+   ![](Task_3.png)                 |    ![](Task_4.png)
+
+
+ ## Dynamic Data Analysis Expressions (DAX Measures):
+
+  1. Average Age
+
+                  Average Age = AVERAGE('bank-full'[age])
+
+     ![](Ave_age.png)
+  3. 
 
 
